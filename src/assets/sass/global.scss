@@ -1,0 +1,27 @@
+@font-face {
+  font-family: SFSportsNightUpright;
+  src: url("/SFSportsNightUpright.ttf") format("truetype");
+}
+
+html,
+body,
+#app {
+  height: 100%;
+  width: 100%;
+  overflow-y: auto;
+}
+
+.card {
+  border: 1px solid $border-color;
+  padding: 10px;
+
+  &_header {
+    border-bottom: 1px solid $border-color;
+    padding: 10px;
+  }
+
+  &_content {
+    padding: 10px;
+    margin: 10px 0;
+  }
+}
